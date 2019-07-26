@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD53C2F622E82A8A00601FD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD53C2F522E82A8A00601FD6 /* AppDelegate.swift */; };
+		AD53C2F822E82A8A00601FD6 /* CardPremierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD53C2F722E82A8A00601FD6 /* CardPremierViewController.swift */; };
+		AD53C2FB22E82A8A00601FD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD53C2F922E82A8A00601FD6 /* Main.storyboard */; };
+		AD53C2FD22E82A8B00601FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD53C2FC22E82A8B00601FD6 /* Assets.xcassets */; };
+		AD53C30022E82A8B00601FD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD53C2FE22E82A8B00601FD6 /* LaunchScreen.storyboard */; };
+		AD53C30B22E82A8B00601FD6 /* Card_PremierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD53C30A22E82A8B00601FD6 /* Card_PremierTests.swift */; };
+		AD53C31622E82A8B00601FD6 /* Card_PremierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD53C31522E82A8B00601FD6 /* Card_PremierUITests.swift */; };
+		AD53C32422E82C1000601FD6 /* StaticData.json in Resources */ = {isa = PBXBuildFile; fileRef = AD53C32322E82C1000601FD6 /* StaticData.json */; };
+		AD53C32622E82F2400601FD6 /* PremierModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD53C32522E82F2400601FD6 /* PremierModel.swift */; };
+		AD53C32822E838ED00601FD6 /* PremierViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD53C32722E838ED00601FD6 /* PremierViewModel.swift */; };
+		AD53C32A22E845A200601FD6 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD53C32922E845A200601FD6 /* TransactionTableViewCell.swift */; };
+		AD53C32C22E90F1C00601FD6 /* SpendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD53C32B22E90F1C00601FD6 /* SpendView.swift */; };
+		AD53C32E22E915B200601FD6 /* SpendInsightsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD53C32D22E915B200601FD6 /* SpendInsightsTableViewCell.swift */; };
+		AD53C33522E9C63400601FD6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD53C33422E9C63400601FD6 /* Constants.swift */; };
+		F0A594BA22E99D3600A1F025 /* LightContentNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A594B922E99D3600A1F025 /* LightContentNavigationController.swift */; };
+		F0A594BE22E9A90C00A1F025 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A594BD22E9A90C00A1F025 /* DataProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD53C30722E82A8B00601FD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD53C2EA22E82A8A00601FD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD53C2F122E82A8A00601FD6;
+			remoteInfo = "Card Premier";
+		};
+		AD53C31222E82A8B00601FD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD53C2EA22E82A8A00601FD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD53C2F122E82A8A00601FD6;
+			remoteInfo = "Card Premier";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD53C2F222E82A8A00601FD6 /* Card Premier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Premier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD53C2F522E82A8A00601FD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD53C2F722E82A8A00601FD6 /* CardPremierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPremierViewController.swift; sourceTree = "<group>"; };
+		AD53C2FA22E82A8A00601FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD53C2FC22E82A8B00601FD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD53C2FF22E82A8B00601FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD53C30122E82A8B00601FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD53C30622E82A8B00601FD6 /* Card PremierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Card PremierTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD53C30A22E82A8B00601FD6 /* Card_PremierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_PremierTests.swift; sourceTree = "<group>"; };
+		AD53C30C22E82A8B00601FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD53C31122E82A8B00601FD6 /* Card PremierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Card PremierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD53C31522E82A8B00601FD6 /* Card_PremierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_PremierUITests.swift; sourceTree = "<group>"; };
+		AD53C31722E82A8B00601FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD53C32322E82C1000601FD6 /* StaticData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StaticData.json; sourceTree = "<group>"; };
+		AD53C32522E82F2400601FD6 /* PremierModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremierModel.swift; sourceTree = "<group>"; };
+		AD53C32722E838ED00601FD6 /* PremierViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremierViewModel.swift; sourceTree = "<group>"; };
+		AD53C32922E845A200601FD6 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		AD53C32B22E90F1C00601FD6 /* SpendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendView.swift; sourceTree = "<group>"; };
+		AD53C32D22E915B200601FD6 /* SpendInsightsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendInsightsTableViewCell.swift; sourceTree = "<group>"; };
+		AD53C33422E9C63400601FD6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F0A594B922E99D3600A1F025 /* LightContentNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightContentNavigationController.swift; sourceTree = "<group>"; };
+		F0A594BD22E9A90C00A1F025 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD53C2EF22E82A8A00601FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD53C30322E82A8B00601FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD53C30E22E82A8B00601FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD53C2E922E82A8A00601FD6 = {
+			isa = PBXGroup;
+			children = (
+				AD53C2F422E82A8A00601FD6 /* Card Premier */,
+				AD53C30922E82A8B00601FD6 /* Card PremierTests */,
+				AD53C31422E82A8B00601FD6 /* Card PremierUITests */,
+				AD53C2F322E82A8A00601FD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD53C2F322E82A8A00601FD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD53C2F222E82A8A00601FD6 /* Card Premier.app */,
+				AD53C30622E82A8B00601FD6 /* Card PremierTests.xctest */,
+				AD53C31122E82A8B00601FD6 /* Card PremierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD53C2F422E82A8A00601FD6 /* Card Premier */ = {
+			isa = PBXGroup;
+			children = (
+				AD53C2F522E82A8A00601FD6 /* AppDelegate.swift */,
+				AD53C33322E98A4F00601FD6 /* Controllers */,
+				AD53C33222E98A3900601FD6 /* Data */,
+				F0A594B822E9960000A1F025 /* ViewModel */,
+				AD53C33122E98A1D00601FD6 /* Model */,
+				AD53C32F22E989F200601FD6 /* Views */,
+				F0A594BF22E9A98400A1F025 /* Supporting Files */,
+			);
+			path = "Card Premier";
+			sourceTree = "<group>";
+		};
+		AD53C30922E82A8B00601FD6 /* Card PremierTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD53C30A22E82A8B00601FD6 /* Card_PremierTests.swift */,
+				AD53C30C22E82A8B00601FD6 /* Info.plist */,
+			);
+			path = "Card PremierTests";
+			sourceTree = "<group>";
+		};
+		AD53C31422E82A8B00601FD6 /* Card PremierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD53C31522E82A8B00601FD6 /* Card_PremierUITests.swift */,
+				AD53C31722E82A8B00601FD6 /* Info.plist */,
+			);
+			path = "Card PremierUITests";
+			sourceTree = "<group>";
+		};
+		AD53C32F22E989F200601FD6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD53C32922E845A200601FD6 /* TransactionTableViewCell.swift */,
+				AD53C32D22E915B200601FD6 /* SpendInsightsTableViewCell.swift */,
+				AD53C32B22E90F1C00601FD6 /* SpendView.swift */,
+				AD53C2F922E82A8A00601FD6 /* Main.storyboard */,
+				AD53C2FE22E82A8B00601FD6 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD53C33122E98A1D00601FD6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD53C32522E82F2400601FD6 /* PremierModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD53C33222E98A3900601FD6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AD53C32322E82C1000601FD6 /* StaticData.json */,
+				F0A594BD22E9A90C00A1F025 /* DataProvider.swift */,
+				AD53C33422E9C63400601FD6 /* Constants.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AD53C33322E98A4F00601FD6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD53C2F722E82A8A00601FD6 /* CardPremierViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F0A594B822E9960000A1F025 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD53C32722E838ED00601FD6 /* PremierViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F0A594BF22E9A98400A1F025 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0A594B922E99D3600A1F025 /* LightContentNavigationController.swift */,
+				AD53C2FC22E82A8B00601FD6 /* Assets.xcassets */,
+				AD53C30122E82A8B00601FD6 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD53C2F122E82A8A00601FD6 /* Card Premier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD53C31A22E82A8B00601FD6 /* Build configuration list for PBXNativeTarget "Card Premier" */;
+			buildPhases = (
+				AD53C2EE22E82A8A00601FD6 /* Sources */,
+				AD53C2EF22E82A8A00601FD6 /* Frameworks */,
+				AD53C2F022E82A8A00601FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Card Premier";
+			productName = "Card Premier";
+			productReference = AD53C2F222E82A8A00601FD6 /* Card Premier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD53C30522E82A8B00601FD6 /* Card PremierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD53C31D22E82A8B00601FD6 /* Build configuration list for PBXNativeTarget "Card PremierTests" */;
+			buildPhases = (
+				AD53C30222E82A8B00601FD6 /* Sources */,
+				AD53C30322E82A8B00601FD6 /* Frameworks */,
+				AD53C30422E82A8B00601FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD53C30822E82A8B00601FD6 /* PBXTargetDependency */,
+			);
+			name = "Card PremierTests";
+			productName = "Card PremierTests";
+			productReference = AD53C30622E82A8B00601FD6 /* Card PremierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD53C31022E82A8B00601FD6 /* Card PremierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD53C32022E82A8B00601FD6 /* Build configuration list for PBXNativeTarget "Card PremierUITests" */;
+			buildPhases = (
+				AD53C30D22E82A8B00601FD6 /* Sources */,
+				AD53C30E22E82A8B00601FD6 /* Frameworks */,
+				AD53C30F22E82A8B00601FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD53C31322E82A8B00601FD6 /* PBXTargetDependency */,
+			);
+			name = "Card PremierUITests";
+			productName = "Card PremierUITests";
+			productReference = AD53C31122E82A8B00601FD6 /* Card PremierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD53C2EA22E82A8A00601FD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Chinny;
+				TargetAttributes = {
+					AD53C2F122E82A8A00601FD6 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					AD53C30522E82A8B00601FD6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = AD53C2F122E82A8A00601FD6;
+					};
+					AD53C31022E82A8B00601FD6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = AD53C2F122E82A8A00601FD6;
+					};
+				};
+			};
+			buildConfigurationList = AD53C2ED22E82A8A00601FD6 /* Build configuration list for PBXProject "Card Premier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD53C2E922E82A8A00601FD6;
+			productRefGroup = AD53C2F322E82A8A00601FD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD53C2F122E82A8A00601FD6 /* Card Premier */,
+				AD53C30522E82A8B00601FD6 /* Card PremierTests */,
+				AD53C31022E82A8B00601FD6 /* Card PremierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD53C2F022E82A8A00601FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD53C30022E82A8B00601FD6 /* LaunchScreen.storyboard in Resources */,
+				AD53C32422E82C1000601FD6 /* StaticData.json in Resources */,
+				AD53C2FD22E82A8B00601FD6 /* Assets.xcassets in Resources */,
+				AD53C2FB22E82A8A00601FD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD53C30422E82A8B00601FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD53C30F22E82A8B00601FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD53C2EE22E82A8A00601FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A594BA22E99D3600A1F025 /* LightContentNavigationController.swift in Sources */,
+				AD53C2F822E82A8A00601FD6 /* CardPremierViewController.swift in Sources */,
+				AD53C32A22E845A200601FD6 /* TransactionTableViewCell.swift in Sources */,
+				AD53C32822E838ED00601FD6 /* PremierViewModel.swift in Sources */,
+				AD53C32C22E90F1C00601FD6 /* SpendView.swift in Sources */,
+				AD53C33522E9C63400601FD6 /* Constants.swift in Sources */,
+				AD53C32E22E915B200601FD6 /* SpendInsightsTableViewCell.swift in Sources */,
+				F0A594BE22E9A90C00A1F025 /* DataProvider.swift in Sources */,
+				AD53C32622E82F2400601FD6 /* PremierModel.swift in Sources */,
+				AD53C2F622E82A8A00601FD6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD53C30222E82A8B00601FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD53C30B22E82A8B00601FD6 /* Card_PremierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD53C30D22E82A8B00601FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD53C31622E82A8B00601FD6 /* Card_PremierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD53C30822E82A8B00601FD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD53C2F122E82A8A00601FD6 /* Card Premier */;
+			targetProxy = AD53C30722E82A8B00601FD6 /* PBXContainerItemProxy */;
+		};
+		AD53C31322E82A8B00601FD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD53C2F122E82A8A00601FD6 /* Card Premier */;
+			targetProxy = AD53C31222E82A8B00601FD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD53C2F922E82A8A00601FD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD53C2FA22E82A8A00601FD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD53C2FE22E82A8B00601FD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD53C2FF22E82A8B00601FD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD53C31822E82A8B00601FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD53C31922E82A8B00601FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD53C31B22E82A8B00601FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Card Premier/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chinny.Card-Premier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD53C31C22E82A8B00601FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Card Premier/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chinny.Card-Premier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD53C31E22E82A8B00601FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Card PremierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chinny.Card-PremierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Card Premier.app/Card Premier";
+			};
+			name = Debug;
+		};
+		AD53C31F22E82A8B00601FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Card PremierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chinny.Card-PremierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Card Premier.app/Card Premier";
+			};
+			name = Release;
+		};
+		AD53C32122E82A8B00601FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Card PremierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chinny.Card-PremierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Card Premier";
+			};
+			name = Debug;
+		};
+		AD53C32222E82A8B00601FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Card PremierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chinny.Card-PremierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Card Premier";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD53C2ED22E82A8A00601FD6 /* Build configuration list for PBXProject "Card Premier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD53C31822E82A8B00601FD6 /* Debug */,
+				AD53C31922E82A8B00601FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD53C31A22E82A8B00601FD6 /* Build configuration list for PBXNativeTarget "Card Premier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD53C31B22E82A8B00601FD6 /* Debug */,
+				AD53C31C22E82A8B00601FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD53C31D22E82A8B00601FD6 /* Build configuration list for PBXNativeTarget "Card PremierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD53C31E22E82A8B00601FD6 /* Debug */,
+				AD53C31F22E82A8B00601FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD53C32022E82A8B00601FD6 /* Build configuration list for PBXNativeTarget "Card PremierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD53C32122E82A8B00601FD6 /* Debug */,
+				AD53C32222E82A8B00601FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD53C2EA22E82A8A00601FD6 /* Project object */;
+}

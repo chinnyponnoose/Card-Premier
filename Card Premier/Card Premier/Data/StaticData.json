@@ -1,0 +1,50 @@
+{
+    "data": {
+        "cards": [{
+            "namePrinted": "Gary Singh",
+            "image": "VisaCard",
+            "endDigit": "0287",
+            "type": "Visa"
+        },
+        {
+            "namePrinted": "Ann Singh",
+            "image": "MasterCard",
+            "endDigit": "5864",
+            "type": "MasterCard"
+        }
+        ],
+        "recentTransactions": [{
+            "name": "Chevron Gas station",
+            "image": "Chevron",
+            "date": "June 29",
+            "amount": 65.45,
+            "cardUsed": "Visa 0287"
+
+        },
+        {
+            "name": "Kay Jewellers",
+            "image": "KayJewellers",
+            "date": "June 28",
+            "amount": 105.10,
+            "cardUsed": "Mastercard 5864"
+        },
+        {
+            "name": "Delta Airlines",
+            "image": "DeltaAirline",
+            "date": "June 27",
+            "amount": 402.95,
+            "cardUsed": "Visa 0287"
+        }
+        ],
+        "creditScore": {
+            "lastChecked": "June 15th"
+        },
+        "spendDetails": {
+            "month": "JUNE",
+            "currentSpending": 1750.0,
+            "pending": 60.0,
+            "limit": 1600.0,
+            "usualSpending": 1400.0
+        }
+    }
+}
